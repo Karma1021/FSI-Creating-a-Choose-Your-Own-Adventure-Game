@@ -1,13 +1,13 @@
 // Your Code Here
 window.prompt('Do you head left or right?')
-let('left')  = window.prompt('left')
-{
-if (left > right)
+let firstAnswer  = window.prompt('Do you head left or right?')
+if(firstAnswer === 'left'){
+    let firstAnswer = window.prompt(`You come across a stray cat. 
+It scampers off down a small hole, just large enough for you to crawl through. 
+Do you follow it, or continue on your path?`)
 
-console.log=("you fell into a booby trap")
-
-
-else(left < right)
-{
-    console.log("you made it")
+} else if(firstAnswer === 'right') {
+    let secondAnswer = window.prompt(`You come across a snoring dragon. 
+On the other side of him, you see a shiny chest of treasure. Another path would 
+lead you away from the dragon altogether. Which path do you take?`)
 }
